@@ -146,9 +146,6 @@
                 
                     HorizontalOptions="Center">
 
-                
-                
-
             </HorizontalStackLayout>
 
         </VerticalStackLayout>
