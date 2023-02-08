@@ -20,5 +20,14 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private void OnClickClear(object sender, EventArgs e)
+    {
+        count = 1;
+
+		CounterBtn.Text = $"Click Me";
+
+        SemanticScreenReader.Announce(CounterBtn.Text);
+    }
 }
 

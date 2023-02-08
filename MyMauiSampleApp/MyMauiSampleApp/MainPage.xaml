@@ -35,6 +35,13 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="ClearBtn"
+                Text="Clear"
+                SemanticProperties.Hint="Clear the Counter"
+                Clicked="OnClickClear"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
